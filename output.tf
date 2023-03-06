@@ -1,7 +1,7 @@
 output "rgid" {
-  value = tf-runner-rg.name
+  value = azurerm_resource_group.tf-runner-rg.name
 }
 
 output "rgtags" {
-  value = tf-runner-rg.tags
+  value = azurerm_resource_group.tf-runner-rg.tags
 }
